@@ -23,7 +23,7 @@
             <td><?= $album->getalbum() ?></td>
             <td><?= $album->getNaam() ?></td>
             <td><?= $album->getArtiesten() ?></td>
-            <td><?= $album->getRelease_datum() ?></td>
+            <td><?= $album->getReleasedatum() ?></td>
             <td><?= $album->getUrl() ?></td>
             <td><?= $album->getAfbeelding() ?></td>
             <td><?= $album->getPrijs() ?></td>

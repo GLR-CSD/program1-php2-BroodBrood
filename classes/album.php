@@ -180,6 +180,6 @@ class album {
         }
 
         // Retourneer array met personen
-        return $album;
+        return $albums;
     }
 }
