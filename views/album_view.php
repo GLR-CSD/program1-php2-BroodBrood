@@ -25,7 +25,7 @@
             <td><?= $album->getArtiesten() ?></td>
             <td><?= $album->getReleasedatum() ?></td>
             <td><?= $album->getUrl() ?></td>
-            <td><?= $album->getAfbeelding() ?></td>
+            <td><img src="public/img/<?= $album->getAfbeelding() ?>" alt=""></td>
             <td><?= $album->getPrijs() ?></td>
         </tr>
     <?php endforeach; ?>
