@@ -11,12 +11,10 @@
 <table>
     <tr>
         <th>ID</th>
-        <th>Naam</th>
-        <th>Artiesten</th>
-        <th>Releasedatum</th>
+        <th>AlbumID</th>
+        <th>Titel</th>
+        <th>Duur</th>
         <th>Url</th>
-        <th>Afbeelding</th>
-        <th>Prijs</th>
     </tr>
     <?php foreach ($nummers as $nummer): ?>
         <tr>
