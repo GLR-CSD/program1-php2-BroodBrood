@@ -123,7 +123,7 @@ class nummer {
         while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
             $nummer = new nummer(
                 $row['ID'],
-                $row['AlbumID'],
+                $row['albumID'],
                 $row['Titel'],
                 $row['Duur'],
                 $row['URL'],
